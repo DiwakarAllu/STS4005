@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SortingQueueWithoutExtraSpace {
+public class SortingQueueWithoutExtraSpace { // T.c = O(n^2)    s.c = O(1)
 
    static void sorting(Queue<Integer> q) {
         int n = q.size();
