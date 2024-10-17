@@ -10,7 +10,7 @@ public class TowerOfHanoi{ // -------------t.c = O(2^n)   s.c = O(n)
         System.out.println("Move disk "+n+ "from "+from_rod+" to "+to_rod);
         towerOfHanoi2(n-1, aux_rod,to_rod,from_rod);
     }
-    //--------------------------------------------------------------------------
+    //---------------------------------------------------------------------------
     static void steps(int x,char s,char d){
         //System.out.println("Move disk "+x+" from "+s+" to "+d);
         System.out.print(s);
